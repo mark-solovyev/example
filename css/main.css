@@ -1,3 +1,53 @@
-.kaka {
-    color: blue
+
+html, body {
+    height: 100%
+}
+.content {
+    border: solid 1px orange;
+    height: 100%;
+}
+.img-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 100%;
+    min-width: 560px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: dashed 2px blue
+}
+.img-list__item {
+    border: dotted 1px green;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 325px;
+    min-width: 275px;
+    max-width: 550px
+}
+.img-list__item_img1 {
+    background-image: url(./../img/img1.jpg)
+}
+.img-list__item_img2 {
+    background-image: url(./../img/img2.jpg)
+}
+.img-list__item_img3 {
+    background-image: url(./../img/img3.jpg)
+}
+.img-list__item_img4 {
+    background-image: url(./../img/img4.jpg)
+}
+.img-list__item_img5 {
+    background-image: url(./../img/img5.jpg)
+}
+.img-list__item_img6 {
+    background-image: url(./../img/img6.jpg)
+}
+.img-list__item_img7 {
+    background-image: url(./../img/img7.jpg)
+}
+.img-list__item_img8 {
+    background-image: url(./../img/img8.jpg)
 }
